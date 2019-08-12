@@ -9,7 +9,7 @@ Adafruit_BNO055 bno = Adafruit_BNO055(55);
 
 void setup(void) 
 {
-  Serial.begin(9600);
+  Serial.begin(19200);
   Serial.println("Orientation Sensor Test"); Serial.println("");
   
   /* Initialise the sensor */
